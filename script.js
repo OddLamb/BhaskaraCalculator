@@ -16,7 +16,6 @@ function Bhaskara(){
         x1_id.innerHTML = x1;
         let x2 = -numB_id.value - Math.sqrt(delta)/2*numA_id.value;
         x2_id.innerHTML = x2;
-        }
     }else{
         alert('O delta é negativo');
     }
